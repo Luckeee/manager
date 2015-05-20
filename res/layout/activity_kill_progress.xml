@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/appicon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:contentDescription="@string/anane" />
+
+    <TextView
+        android:id="@+id/appname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@id/appicon"
+        android:layout_toRightOf="@id/appicon"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appicon"
+        android:layout_margin="20dp"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/delayAlter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/details"
+        android:layout_marginTop="20dp"
+        android:text="@string/delayalter" />
+
+    <Button
+        android:id="@+id/stopit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/details"
+        android:layout_margin="20dp"
+        android:layout_toEndOf="@id/delayAlter"
+        android:layout_toRightOf="@id/delayAlter"
+        android:text="@string/stopit" />
+
+</RelativeLayout>

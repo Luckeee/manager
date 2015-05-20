@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.gg.manager.MainActivity" >
+
+    <item 
+        android:id="@+id/StartService"
+        android:icon="@drawable/ic_menu_play_clip"
+        android:title="@string/startservice"
+        android:showAsAction="always"
+        />
+    <item 
+        android:id="@+id/refresh"
+        android:icon="@drawable/ic_menu_refresh"
+        android:title="@string/refresh"
+        />
+    <item 
+        android:id="@+id/stopser"
+        android:icon="@drawable/ic_menu_stop"
+        android:title="@string/stopss"
+        />
+    <item 
+        android:id="@+id/setting"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/action_settings"
+        />
+    
+    
+</menu>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/app_icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:contentDescription="@string/anane"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/appname_li"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/app_icon"
+        android:layout_toRightOf="@id/app_icon"
+        android:text="@string/app_name"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_icon"
+        android:text="@string/runningkk"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/running_li"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_icon"
+        android:layout_marginLeft="100dp"
+        android:layout_marginStart="100dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/running_li"
+        android:text="@string/limitset"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/time_set_li"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/running_li"
+        android:layout_marginLeft="100dp"
+        android:layout_marginStart="100dp"
+        android:hint="@string/ssss"
+        android:inputType="number"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/okand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save" 
+        android:layout_below="@id/time_set_li"
+        />
+
+</RelativeLayout>

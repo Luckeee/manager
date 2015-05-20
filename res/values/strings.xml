@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">manager</string>
+    <string name="hello_world">Hi</string>
+    <string name="action_settings">     设置</string>
+    <string name="startservice">     StartService</string>
+    <string name="anane">应用名</string>
+    <string name="timeused">已用时</string>
+    <string name="timelimit">限制时间</string>
+    <string name="whatname">应用名称：</string>
+    <string name="runningkk">已经运行：</string>
+    <string name="limitset">设置限制：</string>
+    <string name="ssss">(单位为秒)</string>
+    <string name="save">保存</string>
+    <string name="istangkuang">弹框</string>
+    <string name="issound">声音</string>
+    <string name="isVerBin">震动</string>
+    <string name="getallinit">获取所有应用列表</string>
+    <string name="refresh">     刷新</string>
+    <string name="stopss">     停止</string>
+    <string name="eelse">其他</string>
+    <string name="selecttheway">提醒方式</string>
+    <string name="whitelist">设置白名单</string>
+    <string name="feedback">反馈</string>
+    <string name="feedbback">意见反馈</string>
+    <string name="delayalter">延时提醒</string>
+    <string name="stopit">停止</string>
+    <string name="white">白名单</string>
+    <string name="black">黑名单</string>
+    <string name="feedbback_maill">1191481036@qq.com</string>
+</resources>
